@@ -1,7 +1,7 @@
 # Kuta Beach Reviews Sentiment Analysis & Data Labeling 🏖️📝
 
 ## Overview 🌟
-This project focuses on executing a rigorous human-in-the-loop data annotation pipeline on raw text reviews collected from Google Maps for Pantai Kuta (Kuta Beach), Bali, Indonesia. The core purpose is to build a high-quality, human-validated baseline dataset to support comparative studies between multilingual and Indonesian-specific transformer models (such as `mBERT` vs `IndoBERT`) in understanding casual real-world text[cite: 1]. 
+This project focuses on executing a rigorous human-in-the-loop data annotation pipeline on raw text reviews collected from Google Maps for Pantai Kuta (Kuta Beach), Bali, Indonesia. The core purpose is to build a high-quality, human-validated baseline dataset to support comparative studies between multilingual and Indonesian-specific transformer models (such as `mBERT` vs `IndoBERT`) in understanding casual real-world text. 
 
 The project pipeline covers:
 - 🧑‍💻 Data Ingestion
@@ -9,11 +9,11 @@ The project pipeline covers:
 - 🔍 Strict Boundary Classification
 - 📊 Human-in-the-Loop Evaluation
 
-By labeling and validating informal expressions, structural internet slang, and mixed-language tokens, this project provides a clean, golden-standard dataset optimized for localized NLP model training[cite: 1].
+By labeling and validating informal expressions, structural internet slang, and mixed-language tokens, this project provides a clean, golden-standard dataset optimized for localized NLP model training.
 
 ## Objectives 🎯
-- Clean and filter a raw multi-language dataset to strictly isolate native and colloquial Indonesian text[cite: 1].
-- Establish a consistent rule-based annotation schema (Taxonomy Framework) for human evaluation[cite: 1].
+- Clean and filter a raw multi-language dataset to strictly isolate native and colloquial Indonesian text.
+- Establish a consistent rule-based annotation schema (Taxonomy Framework) for human evaluation.
 - Audit and document textual data mappings with contextual linguistic justifications to prevent model drift.
 
 ## Dependencies ⚙️
